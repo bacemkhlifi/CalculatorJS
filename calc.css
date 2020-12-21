@@ -1,0 +1,67 @@
+body{
+  background: #4776E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Inconsolata;
+}
+
+.title{
+  font-family: "Fjalla One";
+  font-size: 0.3em;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+body > .container{
+  width: 250px;
+  font-family: Inconsolata;
+  font-size: 4em;
+  box-shadow: 20px 20px 50px black;
+  background: #423E42;
+  margin: 7% auto 0 auto ;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+#display{
+  max-width: 88%;
+  max-height: 50px;
+  font-size: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  letter-spacing: 1px;
+  margin: 0 auto 15px auto;
+  padding: 0 10px 0 10px;
+  background: #8AD45D;
+  color: black;
+  /*scroller*/
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.container > .row{
+  margin-left: 4%;
+}
+
+.row > .btn-default{
+    width: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.row > .equals{
+  width: 40%;
+}
+
+footer{
+  background-color: black;
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
